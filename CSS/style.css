@@ -1,0 +1,161 @@
+
+html {
+    box-sizing: border-box
+  }
+  * {
+    box-sizing: inherit
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color:lightgrey ;
+    font-family: 'Teko', sans-serif;
+    padding: 10px;
+
+}
+h2{
+    font-size: 80px;
+    color: darkorange;
+    text-align: center;
+    text-decoration:underline;
+
+}
+.aboutMe {
+    display: inline-block;
+    margin-left: auto;
+
+    position: relative;
+}
+P {
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    background-color: darkorange;
+    box-shadow: black;
+}
+li {
+    font-style: oblique;
+}
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+img {
+    padding:  2px;
+
+    border-radius: 5px;
+    border-spacing: all;
+    border: 5px solid darkorange;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+nav{
+    text-align: left;
+}
+div.firstList {
+    text-align: center;
+}
+ul.myUL {
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
+}
+div.secondList {
+    text-align: center;
+}
+ol.myOL {
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
+}
+a {
+    color: purple;
+}
+table {
+    text-align: center;
+    border: 10px;
+    width: 35%;
+    border:darkorange;
+    border-collapse:inherit;
+    font-size: 25px;
+}
+td:hover {
+    background-color: darkorange;
+}
+table, th, td {
+    border: 1px solid darkorange;
+    border-collapse: collapse;
+}
+iframe {
+    padding: 5px 0 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div, form {
+    display: block;
+    text-align: center;
+
+}
+form {
+    display: inline-block;
+    background-color: darkorange;
+    padding: 15px;
+    border-style:dashed;
+
+}
+input[type=button]:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(28, 236, 236);
+    padding: 5px;
+}
+#contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+#random {
+    background-color: lightgray;
+}
+#feedback {
+    height: 100px;
+
+}
+#bikeVideo {
+    margin-right: auto;
+    margin-left: auto;
+}
+#dep {
+    float: right;
+    width: 250px;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 10;
+    width: 100px;
+    background-color: transparent;
+}
+.bio {
+    display: inline-block;
+    background-color: darkorange;
+    padding: 1em;
+    margin-right: 10%;
+    margin-left: 10%;
+    position:sticky;
+
+}
+.bio img{
+    float: right;
+    width: 50%;
+}
